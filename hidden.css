@@ -1,0 +1,4 @@
+.hidden {
+    scroll-behavior: smooth;
+    scrollbar-color: red,black;
+}

@@ -1,10 +1,32 @@
+@import url("hidden.css");
+
 .button {
     background-image: radial-gradient(rgb(126, 143, 255),rgb(162, 255, 162));
     width: 150px;
     height: 50px;
+    transition: 300ms ease-in;
 }
 
-.button :hover {
-    background-image: radial-gradient(rgb(132, 255, 126),rgb(134, 125, 255));
-    text-decoration-color: antiquewhite;
+
+.button:hover {
+    color: rgb(0, 0, 0);
+    background-image: radial-gradient(rgb(126, 255, 147),rgb(162, 171, 255));
+    transition: 300ms ease-out;
+    cursor: pointer;
+  }
+  
+.text-white {
+    color: antiquewhite;
+}
+
+.text-black {
+    color: black;
+}
+
+.u-white {
+    color: antiquewhite;
+}
+
+.u-black {
+    color: black;
 }
