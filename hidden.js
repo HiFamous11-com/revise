@@ -27,3 +27,7 @@ function btn() {
       x.style.display = "block";
     }
   }  
+
+  function replaceagain() {
+    location.replace("https://hifamous11-com.github.io/revise/again.html")
+  }
